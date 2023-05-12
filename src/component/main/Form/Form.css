@@ -1,0 +1,16 @@
+.comForm form {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.comForm form input[type=text] {
+  width: 300px;
+  font-size: 16px;
+  height: 30px;
+  margin: 10px;
+}
+.comForm form button {
+  height: 30px;
+  width: 60px;
+  margin: 10px;
+}/*# sourceMappingURL=Form.css.map */

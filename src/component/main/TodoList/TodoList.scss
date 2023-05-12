@@ -1,0 +1,18 @@
+.comTodoList{
+    display: flex;
+    justify-content: center;
+    .List{
+        margin: 20px 60px 0px 60px;
+        padding: 30px;
+        background-color: #505050;
+        border-radius: 30px;
+
+        h2{
+            color: white;
+            font-size: 24px;
+            display: flex;
+            justify-content: center; 
+            margin-bottom: 30px;
+        }
+    }
+}

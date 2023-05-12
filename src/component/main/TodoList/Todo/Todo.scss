@@ -1,0 +1,26 @@
+.comTodo{
+    li{
+        margin: 10px;
+        width: 500px;
+        height: 100px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        p{
+            color:  #505050;
+            font-size: 22px;
+            text-align: center;
+        }
+        .compleated{
+            color: white;
+            background-color: #505050;
+            padding: 10px;
+            cursor: default;
+            text-align: center;
+            width: 80px;
+            margin: 0 auto;
+            font-size: 18px;
+        }
+    }
+}
