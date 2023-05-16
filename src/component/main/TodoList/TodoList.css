@@ -2,13 +2,15 @@
   display: flex;
   justify-content: center;
 }
-.comTodoList .List {
+.comTodoList .list {
   margin: 20px 60px 0px 60px;
+  width: 520px;
+  min-height: 836px;
   padding: 30px;
   background-color: #505050;
   border-radius: 30px;
 }
-.comTodoList .List h2 {
+.comTodoList .list h2 {
   color: white;
   font-size: 24px;
   display: flex;

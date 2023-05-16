@@ -5,7 +5,7 @@ import Todo from './Todo/Todo';
 function TodoList(props){
     return(
         <div className="comTodoList">
-            <div className="List">
+            <div className="list">
             <h2>未完了List</h2>
                 <ul>
                     {props.todos.filter((todo) => todo.isCompleted === false).map((todo) => {
@@ -13,7 +13,7 @@ function TodoList(props){
                     })}
                 </ul>
             </div>
-            <div className="List">
+            <div className="list">
             <h2>完了済List</h2>
                 <ul>
                     {props.todos.filter((todo) => todo.isCompleted === true).map((todo) => {

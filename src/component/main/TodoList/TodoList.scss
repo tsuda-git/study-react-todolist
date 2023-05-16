@@ -1,8 +1,10 @@
 .comTodoList{
     display: flex;
     justify-content: center;
-    .List{
+    .list{
         margin: 20px 60px 0px 60px;
+        width: 520px;
+        min-height: 836px;
         padding: 30px;
         background-color: #505050;
         border-radius: 30px;
